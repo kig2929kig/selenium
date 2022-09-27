@@ -4,3 +4,5 @@
 * WebDriver : https://www.selenium.dev/downloads/
 * 라이브러리 설치 : pip install selenium
 
+[참고]
+https://www.scrapingbee.com/blog/selenium-python/
