@@ -17,7 +17,7 @@ driver.find_element(By.CSS_SELECTOR, ".whsOnd.zHQkBf").send_keys("ansanths.compu
 time.sleep(3)
 driver.find_element(By.CSS_SELECTOR, ".VfPpkd-LgbsSe-OWXEXe-dgl2Hf.nCP5yc.AjY5Oe.DuMIQc.LQeN7.qIypjc.TrZEUc.lw1w4b").click()
 time.sleep(3)
-driver.find_element(By.CSS_SELECTOR, ".whsOnd.zHQkBf").send_keys("ansan8955")
+driver.find_element(By.CSS_SELECTOR, ".whsOnd.zHQkBf").send_keys("password")
 driver.find_element(By.CSS_SELECTOR, ".VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ.VfPpkd-LgbsSe-OWXEXe-dgl2Hf.nCP5yc.AjY5Oe.DuMIQc.LQeN7.qIypjc.TrZEUc.lw1w4b").click()
 time.sleep(2)
 driver.find_element(By.CSS_SELECTOR, ".T-I.T-I-KE.L3").click()
