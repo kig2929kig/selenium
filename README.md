@@ -7,3 +7,6 @@
 
 [참고]
 https://www.scrapingbee.com/blog/selenium-python/
+
+
+https://cloud.teaching.kr/index.php/s/6okZVsRqXyM1hTS
