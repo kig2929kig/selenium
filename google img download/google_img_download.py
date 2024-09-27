@@ -12,8 +12,8 @@ mySeleniumDriver.my_find_element_enter('q')
 
 #검색 결과를 리스트에 저장
 ########################################################################
-#mySeleniumDriver.my_find_element_click('.rg_i.Q4LuWd')
-img_list = mySeleniumDriver.my_find_elements_item('.rg_i.Q4LuWd')
+mySeleniumDriver.my_find_element_click('.H8Rx8c')
+img_list = mySeleniumDriver.my_find_elements_item('.H8Rx8c')
 ########################################################################
 
 #키워드로 폴더 만들기
@@ -26,7 +26,8 @@ for img in img_list :
     try :
         img.click()
         time.sleep(3)
-        src = mySeleniumDriver.my_src_get('.n3VNCb.KAlRDb')
+        src = mySeleniumDriver.my_src_get('.sFlh5c.FyHeAf.iPVvYb')
+        print(src)
         urllib.request.urlretrieve(src, "./" + my_keyword + "/" + str(count) + '.jpg')
         count = count + 1
         time.sleep(3)
